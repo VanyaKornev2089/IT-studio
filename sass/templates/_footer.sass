@@ -1,0 +1,81 @@
+.footer
+    padding: 4.375rem 0 1.875rem 0 
+    background:  #F6F6F8
+    &-bottom
+        border-top: 1px solid #E0E0E0
+        &__text
+            font-size: 0.8125rem
+            text-align: center
+            margin-top: 1.875rem
+            color: $grey
+    &-top
+        display: flex
+        justify-content: space-between
+        padding-bottom: 4.375rem
+        &-link
+            display: flex
+            flex-direction: column
+            &__title
+                font-size: 1.125rem
+                color: $dark
+                margin-bottom: 2.1875rem
+            &__item
+                text-decoration: none
+                margin-bottom: 1.875rem
+                color: $grey
+                font-size: 0.875rem
+                position: relative
+                padding-left: 30px
+                &:last-child
+                    margin: 0
+                &::before
+                    content: ''
+                    position: absolute
+                    top: 0
+                    left: 0
+                    width: 15px
+                    height: 15px
+                    background: url('../img/galka.svg') no-repeat center
+        &-info
+            display: flex
+            flex-direction: column
+            &__title
+                font-size: 1.125rem
+                color: $dark
+                margin-bottom: 2.1875rem
+            &__link
+                color: $grey
+                font-size: 0.875rem
+                text-decoration: none
+                position: relative
+                padding-left: 1.875rem
+    .link
+        &-email
+            margin-bottom: 1.875rem
+            &::before
+                content: ''
+                position: absolute
+                top: 0
+                left: 0
+                width: 15px
+                height: 15px
+                background: url('../img/message.svg') no-repeat center
+        &-tel
+            margin-bottom: 1.875rem
+            &::before
+                content: ''
+                position: absolute
+                top: 0
+                left: 0
+                width: 15px
+                height: 15px
+                background: url('../img/call.svg') no-repeat center
+        &-address
+            &::before
+                content: ''
+                position: absolute
+                top: 0
+                left: 0
+                width: 15px
+                height: 15px
+                background: url('../img/map.svg') no-repeat center

@@ -1,0 +1,72 @@
+.video
+    padding-bottom: 5.3125rem
+    &-content
+        padding: 4.375rem 0 29.0625rem 0
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), url('../img/video-img.jpg') no-repeat center / cover
+    &-title
+        text-align: center
+        &__desc
+            font-size: 2.25rem
+            color: $white
+            margin-bottom: 1.875rem
+        &__text
+            font-size: 1rem
+            color: $white
+    &-promo
+        background: url('../img/video-jpg.jpg') no-repeat center / cover
+        width: 60.625rem
+        height: 26.875rem
+        border-radius: 10px
+        display: flex
+        align-items: center
+        justify-content: center
+        margin: -21.875rem auto
+        &__button
+            padding: 2.5625rem 1.8125rem 2.5625rem 7.5625rem
+            font-size: 1rem
+            position: relative
+            &:before
+              content: ''
+              position: absolute  
+              top: 19px
+              left: 35px
+              background: url('../img/play-button.svg') no-repeat center
+              width: 60px
+              height: 60px
+    &-container
+        padding-bottom: 27rem
+        border-bottom: 1px solid $lighten-grey
+    &-form
+        margin-top: 5.3125rem
+        &__text
+            text-align: center
+            margin-top: 2.1875rem
+            color: $grey 
+        &-title
+            text-align: center
+            &__desc
+                font-size: 1.125rem
+                margin-bottom: 1.25rem
+            &__text
+                font-size: 1rem
+                color: $grey
+        .form
+            margin-top: 1.875rem
+            display: flex
+            justify-content: center
+            align-items: center
+            &-video
+                margin-bottom: 1.875rem
+                &__input
+                    border-radius: 30px 0 0 30px 
+                    border: 1px solid #F2F2F2
+                    color: $grey
+                    width: 18.75rem
+                    height: 2.8125rem
+                    text-indent: 2.0625rem
+                &__button
+                    border-radius: 0 30px 30px 0
+                    background: $blue
+                    border: 1px solid #F2F2F2
+                    color: $white
+                    padding: 0.875rem 2.25rem 0.875rem 1.625rem
